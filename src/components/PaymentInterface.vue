@@ -28,11 +28,12 @@ export default {
       var change = bill - owed;
       let amount = 0;
 
-      if (owed > 1000 || bill > 1000 || change <= 0) {
+      if (owed < 0 || owed > 1000 || bill > 1000 || change <= 0) {
         if (change < 0) this.changeOutput = "Please put more money.";
         if (change == 0) this.changeOutput = "There is no more change." + "<br><br>" + "Thanks for shopping!";
         if (owed > 1000) this.changeOutput = "You owe too much!";
-        if (bill > 1000) this.changeOutput = "Invalid input!";
+        if (bill > 1000 || owed < 0) this.changeOutput = "Invalid input!";
+
         return null;
       } else {
         for (let i = 0; i <= 8; i++) {
