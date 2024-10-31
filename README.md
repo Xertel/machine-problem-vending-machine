@@ -96,7 +96,3 @@ npm install -g @vue/cli
 ## Currency Support
 
 This application supports Philippine currency, displaying change in bills and coins (PHP 1000, 500, 200, 100, 50, 20, 10, 5, and 1).
-
-## License
-
-This project is licensed under the MIT License.
