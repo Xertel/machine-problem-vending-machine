@@ -1,9 +1,9 @@
 # machine-problem-vending-machine
- An application with interface for computing change value from the inputted owed and money values
+ An application with interface for computing change value from the inputted owed and bill values
 
 # Vending Machine Application
 
-This project is a Vue 3 application that simulates a vending machine interface. The vending machine takes in items selected from a shop interface, calculates the total owed amount, accepts an inserted bill in Philippine currency, and displays the change to the user.
+This project is a Vue 3 application that simulates a vending machine interface. The vending machine takes in costs of items selected from a shop interface, calculates the total owed amount or directly input the owed amount, accepts an inserted bill in Philippine currency, and displays the change to the user.
 
 ## Features
 
